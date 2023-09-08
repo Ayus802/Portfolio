@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Tilt+Prism&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="ayush">Ayush</div>
+      <ul class="navl">
+        <li class="navi nav1">Home</li>
+        <li class="navi nav2">Projects</li>
+        <li class="navi nav3">About me</li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="mains">  
+      <div class="info">
+        <div class="hi">Hi, I am</div>
+        <div class="name">Ayush Kumar Gupta</div>
+        <div class="work">Frontend Developer</div>
+        <div class="disc">My mission is to help you build your projects with my versatility and my ability to adapt to different situations. Together, let's turn your ideas into great projects!</div>
+      </div>
+      <div class="image">
+  
+      </div>
+    </div>
+
+  <div class="main4">
+    <div class="project">
+      PROJECTS
+    </div>
+    <div class="projects">
+      <div class="card"> 
+        <a href="loginpage.html">
+        <div class="ubers">
+         <img src="viktor-avdeev-Gk3apXDUZiI-unsplash.jpg" alt="" class="uber">
+        </div>
+      </a>
+        <div class="detail">Login Page MOD</div>
+      
+      </div>
+      <div class="card">
+        <a href="Amazon/amaz.html">
+        <div class="ubers">
+         <img src="yender-gonzalez-lX5OfZFjHWk-unsplash.jpg" alt="" class="uber">
+        </div>
+      </a>
+        <div class="detail">Home Page MOD</div>
+      </div>
+    </div>
+  </div>
+  <div class="main3">
+    <div class="aboutm">
+      About Me</div>
+    <div class="optionbar">
+      <div class="opti opt1">Story</div>
+      <div class="opti opt2">Experience</div>
+      <div class="opti opt3">Education</div>
+    </div>
+    <div class="mystory">
+      <div class="story">
+        Self-taught since my youngest age, I love learning new things to improve my skills. Very curious by nature, I love the world of the web and new technologies, what I like most is the art and the precision behind each design. With all my skills and knowledge, I will have the pleasure to devote myself fully to the development of your ideas in order to make them great projects.</div>
+    </div>
+  </div>
+  </main>
+  <footer>
+    <div class="contact">
+
+    </div>
+  </footer>
+  <script>
+      var story = document.querySelector('.story');
+      var opt2 = document.querySelector('.opt2')
+      var opt1 = document.querySelector('.opt1')
+      opt1.addEventListener('click', function(){
+        story.innerHTML= 'Self-taught since my youngest age, I love learning new things to improve my skills. Very curious by nature, I love the world of the web and new technologies, what I like most is the art and the precision behind each design. With all my skills and knowledge, I will have the pleasure to devote myself fully to the development of your ideas in order to make them great projects.';
+        story.style.setProperty('width','90vh');
+        opt1.style.setProperty('color','black');
+        opt2.style.setProperty('color',' rgb(144, 144, 165)');
+        opt3.style.setProperty('color',' rgb(144, 144, 165)');
+      })
+      opt2.addEventListener('click', function(){
+      story.innerHTML = 'I do not have any experience as such but I have made some projects that are increasing my experience day by day.';
+        story.style.setProperty('width','95vh')
+        opt2.style.setProperty('color','black')
+        opt1.style.setProperty('color',' rgb(144, 144, 165)');
+        opt3.style.setProperty('color',' rgb(144, 144, 165)')})
+      var opt3 = document.querySelector('.opt3')
+      opt3.addEventListener('click', function(){
+        story.innerHTML = 'As for my education, I started in my last year of high school with python and I loved it, the way of thinking, optimizing and displaying things only with lines of codes immediately fascinated me. So I decided to go to a computer science school. The good thing is that there is alternance and autonomy. You learn by doing exciting projects that stimulate your creativity and your desire to learn. It was when I realized that I wanted to learn more that I started freelancing, a mysterious challenge that opened up to me and made me want to go beyond my limits.'
+        story.style.setProperty('width','120vh');
+        opt2.style.setProperty('color',' rgb(144, 144, 165)');
+        opt1.style.setProperty('color',' rgb(144, 144, 165)');
+        opt3.style.setProperty('color','black');})
+      var nav1 = document.querySelector('.nav1');
+      nav1.addEventListener('click', function(){
+        window.scrollTo({
+          top:0,
+          behavior: "smooth"
+        })
+      })
+      var nav2 = document.querySelector('.nav2');
+      nav2.addEventListener('click', function(){
+        window.scrollTo({
+          top:686,
+          behavior: "smooth"
+        })
+      })
+      var nav3 = document.querySelector('.nav3');
+      nav3.addEventListener('click', function(){
+        window.scrollTo({
+          top:1400,
+          behavior: "smooth"
+        })
+      })
+  </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: linear-gradient(  45deg, rgb(213, 85, 85),rgb(87, 219, 175),rgb(130, 50, 167), rgb(151, 167, 65),rgb(228, 174, 73)) ;
+   color:aliceblue;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    z-index: 999;
+    padding: 30px 10px;
+    background-image: linear-gradient(rgb(72, 72, 25) , rgb(128, 96, 37));
+    align-items: center;
+}
+.ayush{
+    font-size: 2.5rem;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+.navl{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    align-items: center;
+}
+.navi{
+    position: sticky;
+    padding: 1vh;
+    margin-left: 10vh;
+   font-size: 1.5rem;
+   cursor: pointer;
+   transition-property: font-size color;
+   transition-duration: .5s;
+}
+.navi:hover{
+    font-size: 1.9rem;
+    color: rgb(86, 172, 247);
+}
+main{
+
+}
+div.mains{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hi{
+    font-size: 2rem;
+}
+.name{
+    margin-top: 15px;
+    font-size: 3rem;
+}
+.work{
+    margin-top: 5px;
+    font-size: 2.3rem;
+}
+.disc{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(198, 199, 200);
+    width: 75vh;
+}
+.main3{
+    height: 92vh;
+    font-size: 2.5rem;
+    background-image: url(pexels-pixabay-531880.jpg);
+    background-size: cover;
+    color: rgb(22, 22, 22);
+}
+.optionbar{
+    height: 10vh;
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid black 2px;
+}
+.opti{
+    font-size: 2rem;
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition-property: font-size color ;
+    transition-duration: .3s;
+
+}
+.opti:hover{
+    font-size: 2.3rem;
+    color: black;
+}
+.aboutm{
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 5rem;
+    color: rgb(29, 29, 64);
+}
+
+.mystory{
+    height: 63vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+.mystory > div {
+    width: 90vh;
+    font-size: 2rem;
+}
+.main4{
+    width: 100%;
+    height: 92vh;
+    background-image: url(pexels-veeterzy-303383.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+.project{
+    padding-top: 5vh;
+    font-size: 5rem;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 73vh;
+}
+.ubers{
+    height: 55vh;
+    overflow: hidden;
+}
+.uber{
+    height: 50vh;
+    border-radius: 20px;
+    transition-property: height;
+    transition-duration: .5s;
+}
+.uber:hover{
+    border-radius: 20px;
+    height: 60vh;
+    overflow: hidden;
+}
+.detail{
+    font-size: 1.5rem;
+    color: rgb(31, 13, 13);
+    font-weight: 1000;
+}
